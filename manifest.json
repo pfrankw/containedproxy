@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Container Proxy",
+    "name": "Contained Proxy",
     "version": "1.0",
     "permissions": [
         "<all_urls>",
