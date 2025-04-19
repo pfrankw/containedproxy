@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Container Proxy",
+    "version": "1.0",
+    "permissions": [
+        "<all_urls>",
+        "storage",
+        "contextualIdentities",
+        "proxy"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    }
+}

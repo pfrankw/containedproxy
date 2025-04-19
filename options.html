@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+        <h3>Container Proxy Settings</h3>
+
+        <label>Container Name:</label><br>
+        <select id="containerName">
+            <option value="">No container</option>
+        </select><br>
+
+        <label>Proxy Type:</label>
+        <select id="proxyType">
+            <option value="socks">SOCKS5</option>
+            <option value="socks4">SOCKS4</option>
+            <option value="http">HTTP</option>
+            <option value="https">HTTPS</option>
+        </select><br>
+
+        <label>Proxy Host:</label>
+        <input type="text" id="proxyHost"><br>
+
+        <label>Proxy Port:</label>
+        <input type="number" id="proxyPort"><br>
+
+        <button id="save">Save</button>
+        <div id="status"></div>
+    </main>
+    <script src="options.js"></script>
+</body>
+
+</html>
